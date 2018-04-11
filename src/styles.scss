@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+@charset 'UTF-8';
+
+// Configuration and helpers
+@import
+  'stylesheets/variables',
+  'stylesheets/mixins',
+  'stylesheets/normalize',
+  'stylesheets/base',
+  'stylesheets/fonts',
+  'stylesheets/helpers';
+
+  // Import tailwind css utilities (generated from tailwing config file)
+@import 'stylesheets/tailwind-css/tailwind-output'
