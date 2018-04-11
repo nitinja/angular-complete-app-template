@@ -1,10 +1,22 @@
-# DailyProgressReport
+# My Angular Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.2.
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.2.
+
+* Addons: 
+
+    - Ngrx state management (WIP)
+    - Stylelint scss config
+    - Base scss style files
+    - Normalize.css
+    - Tailwind CSS Integration (Utility-first css architecture)
+    - lint.sh - run all linters in one go - convinience utility
+    - Login page (WIP)
+    - Modifiable main page with responsive left drawer (WIP)
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This will also run tailwing command line to generate utility styles.
 
 ## Code scaffolding
 
