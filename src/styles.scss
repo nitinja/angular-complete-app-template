@@ -9,7 +9,8 @@
   'stylesheets/normalize',
   'stylesheets/base',
   'stylesheets/fonts',
-  'stylesheets/helpers';
+  'stylesheets/helpers',
+  'stylesheets/material-theme';
 
   // Import tailwind css utilities (generated from tailwing config file)
 @import 'stylesheets/tailwind-css/tailwind-output'

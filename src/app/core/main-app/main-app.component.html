@@ -1,0 +1,14 @@
+<div class="h-screen w-screen flex flex-col" [class.is-mobile]="mobileQuery.matches">
+  <app-header *ngIf="isAuthenticated" (toggle)="snavElement.first.toggle()"></app-header>
+
+  <mat-sidenav-container class="flex-1">
+    <mat-sidenav role="navigation" *ngIf="isAuthenticated" #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [opened]="!mobileQuery.matches"
+      [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+      <side-menu></side-menu>
+    </mat-sidenav>
+
+    <mat-sidenav-content role="main">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

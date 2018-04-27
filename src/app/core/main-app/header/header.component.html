@@ -1,0 +1,9 @@
+<mat-toolbar color="primary" class="">
+    <div class=" flex-1">
+        <button class="transparent-button" mat-icon-button (click)="onToggle()">
+            <mat-icon [style.color]="'white'">menu</mat-icon>
+        </button>
+        <img src="assets/logo.svg" width="40px" style="margin-bottom: -15px;" class="logo mr-2"> Angular Inc
+    </div>
+    <button mat-button (click)="logout()">Logout</button>
+</mat-toolbar>
