@@ -8,7 +8,7 @@
     - [X] Base scss style files
     - [X] Normalize.css
     - [X] Tailwind CSS Integration (Utility-first css architecture)
-    - [X] lint.sh - run all linters in one go - convinience utility
+    - [X] lint.sh - run all linters in one go - convenience utility
     - [X] Main page with responsive, mobile optimised left drawer
     - [X] Nice, clean login page
     - [X] Working Authentication (only client side, with auth service)
