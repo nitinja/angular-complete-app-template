@@ -3,17 +3,19 @@
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.2.
 
 * Addons: 
-    - [ ] Adding Stylesheet color variables
-    - [ ] Ngrx state management
+    - [X] Ngrx state management
     - [X] Stylelint scss config
     - [X] Base scss style files
     - [X] Normalize.css
     - [X] Tailwind CSS Integration (Utility-first css architecture)
     - [X] lint.sh - run all linters in one go - convinience utility
-    - [ ] Modifiable main page with responsive left drawer
-    - [ ] Login page
-    - [ ] User dropdown menu, logout option
-    - [ ] Working Authentication
+    - [X] Main page with responsive, mobile optimised left drawer
+    - [X] Nice, clean login page
+    - [X] Working Authentication (only client side, with auth service)
+    - [X] Token management (stored in local storage and ngrx store, survives browser refreshes)
+    - [X] Working logout option
+    - [X] About, NotFound pages
+    - [ ] Test cases - In Progress
 
 
 ## Adding new module:
